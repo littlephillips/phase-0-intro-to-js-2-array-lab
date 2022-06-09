@@ -27,17 +27,10 @@ function prependCat (catName){
 }
 
 
-function removeLastCat (catName) {
+function removeLastCat () {
     return cats.slice(0,  cats.length -1)
 }
 
 function removeFirstCat (){
     return cats.slice(1)
 }
-
-
-
-
-
-
-
